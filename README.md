@@ -1,2 +1,2 @@
-#Media Practice 2020-21 Website
+# Media Practice 2020-21 Website
 Markdownなんもわからん
