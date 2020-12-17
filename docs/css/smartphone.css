@@ -170,6 +170,7 @@ span {
   .middle-box-02 {
     position: relative;
     overflow: hidden;
+    z-index: 50;
     background-color: #FCFDFC;
     width: 95%;
     /* max-width: 900px;
@@ -177,18 +178,20 @@ span {
     margin-bottom: -5%;
     margin-right: 0;
   }
-    .middle-box-02 .border {
+    .border {
       position: absolute;
       width: 100%;
       height: auto;
       margin-bottom: -5%;
       text-align: right;
     }
-    .middle-box-02 .border img {
+    .border img {
       width: 40px;
     }
 
 .details00 {
+  position: relative;
+  z-index: 100;
   color: #1F5290;
   font-family: a-otf-futo-go-b101-pr6n,sans-serif;
   font-weight: 500;
@@ -198,6 +201,8 @@ span {
   margin-top: 0rem;
 }
   #details00_detail {
+    position: relative;
+    z-index: 100;
     color: #1F5290;
     font-family: a-otf-gothic-bbb-pr6n,sans-serif;
     letter-spacing: 0.5px;
@@ -271,70 +276,9 @@ span {
     font-weight: 900;
   }
 
-/* .fixed-title {
-  color: rgba(137, 183, 204);
-  font-size: 1.5rem;
-  font-weight: 800;
-  font-family: "futura-pt";
-  letter-spacing: 1px;
-} */
-
-/* .background-img {
-  position: relative;
-  background-image: url("../img/test1.png");
-  height: calc(100% - 1.2rem);
-  margin-top: 0.6rem;
-  margin-right: 0.6rem;
-  margin-left: 0.6rem;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
-
-/* .content {
-  margin-left: 4.6rem;
-  margin-right: 4.6rem;
-  margin-bottom: 10rem;
-  margin-top: 5rem;
-} */
-
-/* .title {
-  position: relative;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 500;
-  letter-spacing: 0.3px;
-  margin-bottom: 0.1rem;
-  font-family: "futura-pt";
-}
-
-.title span {
-  font-family: "Moon";
-  line-height: 2rem;
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
-}
-
-.sub-title {
-  font-family: "Moon";
-  line-height: 2rem;
-  margin-top: 2rem;
-  font-size: 16px;
-  letter-spacing: 0.2px;
-}
-
-.document {
-  font-family: "a-otf-futo-go-b101-pr6n";
-  line-height: 2rem;
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
-  margin-top: 2rem;
-  margin-bottom: 5rem;
-} */
-
 .map {
+  position: relative;
+  z-index: 100;
   width: 85%;
   margin-top: -5px;
   margin-left: 5%;
