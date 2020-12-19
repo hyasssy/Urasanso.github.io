@@ -150,13 +150,15 @@
 
 
   .top-header {
-    flex: 1.5;
+    flex: 0.5;
+    flex-wrap: wrap;
   }
   .box {
     width: 40%;
   }
   .countdown {
-    font-size: 6vw;
+    font-size: 4.8vw;
+    margin-left: -5vw;
   }
   .backStr {
     font-size: 2vw;
@@ -166,8 +168,26 @@
     width: 90%;
     margin-left: 4.5vw;
   }
+  .title01 img {
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    min-width: 150px;
+    margin-top: -1%;
+    margin-bottom: -13.5rem;
+  }
   #title00_yokoku{
     margin-top: 3.5%;
+    font-size: 3vw;
+    margin-bottom: 0;
+  }
+  .arrow00 img {
+    width: 100%;
+    height: auto;
+    max-width: 8vw;
+    min-width: 6vw;
   }
 
 
