@@ -56,6 +56,14 @@ body {
   background: rgb(255, 255, 255);
   scrollbar-face-color: #000000;
 }
+::-webkit-scrollbar{
+  width: 0.7rem;
+  background:rgba(0, 0, 0, 0);/*スクロールバーの背景色*/
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, .9);
+  border-radius: 1rem;
+}
 
 .page-top {
   position: relative;
@@ -154,6 +162,7 @@ span {
   justify-content: center;
   align-items: center;
   margin-top: 38%;
+  /*background-color: blue;*/
 }
 .margin {
   margin-top: 15%;
