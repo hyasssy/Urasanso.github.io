@@ -39,21 +39,22 @@
   font-family: "HiraginoW7", sans-serif;
   font-weight: 700;
   font-size: 3rem;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   margin-bottom: 1rem;
 }
 .title00 span {
   white-space: nowrap; /*改行させない*/
 }
 #title00_yokoku {
+  color: #000000;
   text-align: left;
   font-family: "HelveticaNeue", a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.2rem;
+  letter-spacing: 0.8px;
   margin-bottom: 0.2rem;
   margin-left: 0.5rem;
-  /* color: rgba(250, 251, 250); */
   color: #000000;
   letter-spacing: 0.5px;
 }
