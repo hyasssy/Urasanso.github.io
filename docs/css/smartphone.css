@@ -91,7 +91,7 @@
     font-family: a-otf-futo-go-b101-pr6n, sans-serif;
     font-weight: 500;
     font-size: 3.75vw;
-    letter-spacing: 0.85px;
+    letter-spacing: 0.65px;
     line-height: 4.95vw;
     margin-top: 0rem;
   }
@@ -100,7 +100,7 @@
     z-index: 100;
     color: #000000;
     font-family: a-otf-gothic-bbb-pr6n, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.65px;
     font-size: 3vw;
     display: inline-block;
   }
