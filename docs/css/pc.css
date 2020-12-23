@@ -25,36 +25,40 @@
   justify-content: left;
   align-items: center;
 }
+.top-header {
+  position: relative;
+  flex: 0.75;
+  display: inline;
+}
 .box {
   width: 90%;
   height: auto;
   position: relative;
   text-align: right;
-  flex: 5;
+  flex: 1;
   flex-wrap: wrap;
   max-width: 400px;
 }
 .title00 {
   color: #000000;
-  font-family: "HiraginoW7", sans-serif;
+  font-family: "HiraginoW7", sans-serif; /* W7だったところ */
   font-weight: 700;
-  font-size: 3rem;
-  letter-spacing: 0.5px;
+  font-size: 2.5rem;
+  letter-spacing: 0.8px;
   margin-bottom: 1rem;
 }
 .title00 span {
-  display: inline-block; /*改行対策*/
+  white-space: nowrap; /*改行させない*/
 }
 #title00_yokoku {
-  color: #000000;
   text-align: left;
   font-family: "HelveticaNeue", a-otf-midashi-go-mb31-pr6n, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 2.2rem;
-  letter-spacing: 0.8px;
   margin-bottom: 0.2rem;
   margin-left: 0.5rem;
+  /* color: rgba(250, 251, 250); */
   color: #000000;
   letter-spacing: 0.5px;
 }
@@ -63,14 +67,14 @@
   font-family: "HiraginoW4", sans-serif;
   font-size: 1.75rem;
   letter-spacing: 0.8px;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 .title01 img {
   display: block;
   margin: auto;
   height: auto;
   width: 100%;
-  margin-bottom: -1.5rem;
+  margin-bottom: -3.5rem;
 }
 .countdown {
   color: #000000;
@@ -78,17 +82,21 @@
   font-weight: 300;
   font-style: italic;
   letter-spacing: 0.8px;
-  text-align: center;
-  font-size: 5.5rem;
+  text-align: left;
+  font-size: 3.2rem;
   margin-top: -0.5%;
-  margin-left: -1.25%;
+  margin-left: -1%;
   margin-bottom: 0%;
 }
+.countdown span {
+  font-size: 3.7rem
+}
+
 /*span {
   display: inline-block;
 }*/
 .arrow-box {
-  flex: 0.5;
+  flex: 1;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -136,11 +144,6 @@
   margin-top: 15%;
 }
 
-.top-header {
-  position: relative;
-  flex: 2.2;
-  display: inline;
-}
 .backStr {
   position: absolute;
   display: inline;
@@ -180,7 +183,7 @@
   color: #000000;
   font-family: a-otf-futo-go-b101-pr6n, sans-serif;
   font-weight: 500;
-  font-size: 2rem;
+  font-size: 1.75rem;
   letter-spacing: 0.85px;
   line-height: 25px;
   margin-top: 0rem;

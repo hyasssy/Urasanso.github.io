@@ -1,17 +1,17 @@
 @media screen and (max-width: 480px) {
   .top-header {
     position: relative;
-    flex: 2.3;
+    flex: 1;
     display: inline;
   }
   .box {
     width: 90%;
     position: relative;
     text-align: right;
-    flex: 5;
+    flex: 1;
   }
   .arrow-box {
-    flex: 0.5;
+    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -29,7 +29,8 @@
     white-space: nowrap;
   }
   .title00 {
-    font-size: 6.5vw;
+    font-size: 5.5vw;
+    letter-spacing: 0.5px;
   }
   #title00_yokoku {
     font-size: 5vw;
@@ -40,7 +41,7 @@
     font-family: "HiraginoW4", sans-serif;
     font-size: 4.3vw;
     letter-spacing: 0.8px;
-    margin-bottom: 19vw;
+    margin-bottom: 6vw;
   }
   .title01 img {
     display: block;
@@ -49,7 +50,7 @@
     width: 100%;
     max-width: 400px;
     min-width: 250px;
-    margin-bottom: -20vw;
+    margin-bottom: -8vw;
   }
   .countdown {
     color: #000000;
@@ -57,11 +58,14 @@
     font-weight: 300;
     font-style: italic;
     letter-spacing: 0.8px;
-    text-align: center;
-    font-size: 12vw;
+    text-align: left;
+    font-size: 6.5vw;
     margin-top: 0;
-    margin-left: -1.25%;
+    margin-left: 0%;
     margin-bottom: 0%;
+  }
+  .countdown span {
+    font-size: 7.5vw
   }
   .middle-box-01 {
     position: relative;
@@ -107,6 +111,9 @@
     font-weight: 400;
     font-size: 2.75vw;
     letter-spacing: 0.85px;
+    margin-top: 3vw;
+    margin-left: 2%;
+    margin-bottom: -0.5vw;
   }
   .details01-s span {
     font-family: a-otf-futo-go-b101-pr6n, sans-serif;
@@ -115,6 +122,7 @@
   .map {
     position: relative;
     z-index: 100;
+    margin-top: -5px;
   }
   .details01 {
     color: #000000;
